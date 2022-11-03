@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <title>Document</title>
 </head>
 <body>
-    <label for="fondo">color de fondo</label>
-    <input id="fondo" type="color" >
-    <label for="mensaje">mensaje</label>
-    <input id= "mensaje" type="text">
-    <button onclick="guardarLocalS()">guardar en local storage</button>
-    <button onclick="borrarLocalS()">borrar en local storage</button>
+    <div>
+    <label class="fondo">Color de fondo</label>
+    <input id="fondo" type="color" ><br>
+    <label class="mensaje">Mensaje</label>
+    <input id= "mensaje" type="text"><br>
+    <button onclick="guardarLocalS()">Guardar en local storage</button>
+    <button onclick="borrarLocalS()">Borrar del local storage</button>
     <div id="cajaMensaje"></div>
     <script src="index.js"></script>
+    </div>
 </body>
 </html>

@@ -1,0 +1,30 @@
+.fondo{
+    margin: 10px;
+    font-size: 40px;
+    font-family:cursive;
+}
+
+.mensaje{
+    margin: 50px;
+    font-size: 40px;
+    font-family:cursive;
+}
+
+#fondo{
+    width: 100px;
+    height: 30px;
+}
+
+button{
+    margin: 20px;
+    background-color: bisque;
+    border: 0px;
+    width: 200px;
+    height: 30px;
+    font-family:cursive;
+}
+
+div{
+    padding: 130px;
+    text-align: center;
+}
